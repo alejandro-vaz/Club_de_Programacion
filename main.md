@@ -29,7 +29,7 @@ Al final, la programación siempre está orientada a proyectos reales, y eso es 
 ---
 
 # Actividades
-La programación es un mundo enorme, no tiene nada que ver programar videojuegos, con desarrollar páginas web, con hacer aplicaciones para el uso diario, con programar hardware... Un estudiante simplemente no puede aprender todo. Alejandro sabe hacer páginas web, Miguel sabe de electrónica, Jorge sabe programar hardware. Todos tenemos habilidades e intereses diferentes. Por eso, en vez de hacer este club un club centralizado, queremos dejar que todos los integrantes puedan decidir libremente qué quieren hacer.
+La programación es un mundo enorme, no tiene nada que ver programar videojuegos, con desarrollar páginas web, con hacer aplicaciones para el uso diario, con programar hardware... Un estudiante simplemente no puede aprender todo. Alejandro sabe hacer páginas web mientras que Jorge sabe programar hardware. Todos tenemos habilidades e intereses diferentes. Por eso, en vez de hacer este club un club centralizado, queremos dejar que todos los integrantes puedan decidir libremente qué quieren hacer.
 
 Actividades que haremos:
    - Clases entre nosotros.
@@ -74,4 +74,4 @@ Todos los demás recursos que necesitemos como microplacas Arduino o ESP-32 los 
 ---
 
 # Plan de trabajo
-Nos reuniremos durante el curso, desde septiembre hasta junio, una vez cada dos semanas. Hemos decidido reunirnos solo una vez cada dos semanas ya que es difícil encontrar tiempo libre en común entre los alumnos de bachillerato y los de la E.S.O. En cambio, haremos nuestras reuniones de 2 horas para que nos dé tiempo a hacer algo. 
+Nos reuniremos durante el curso, desde septiembre hasta junio, una vez cada dos semanas. Hemos decidido reunirnos solo una vez cada dos semanas ya que es difícil encontrar tiempo libre en común entre los alumnos de bachillerato y los de la E.S.O. En cambio, haremos nuestras reuniones de 2 horas los Lunes para que nos dé tiempo a hacer algo. 
