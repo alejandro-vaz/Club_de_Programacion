@@ -102,3 +102,8 @@ Al final de cada año escolar, realizaremos un documento en el cuál resumiremos
 ---
 
 # Conclusión
+Con este club, buscamos que los estudiantes aprendan a programar en un mundo que requiere cada vez más esta habilidad. Al mismo tiempo, pensamos que los integrantes deben tener la libertad de decidir qué aprender y qué no, fomentando la curiosidad individual y la participación en el club. También buscamos enseñar, al final nadie puede aprender si nadie le enseña.
+
+Así conseguiríamos crear un club de programación que beneficie mucho a los estudiantes más allá de aprender a programar.
+
+---
