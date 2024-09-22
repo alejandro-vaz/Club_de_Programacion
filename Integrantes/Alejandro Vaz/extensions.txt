@@ -1,0 +1,19 @@
+Apache Conf
+Apache Conf Snippets
+Black
+Evondev - Indent Rainbow Palettes
+GitHub Codespaces
+Image preview
+Indent-Rainbow
+IntelliCode
+IntelliCode API Usage Examples
+Live Server
+Markdown Preview Enhanced
+Material Icon Theme
+Prettier - Code formatter
+Pylance
+Python
+Python Debugger
+Python Indent
+Rainbow CSV
+Refact
