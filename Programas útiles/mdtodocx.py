@@ -1,3 +1,5 @@
+# Necesitas tener instalado Pandoc para convertir.
+
 import pypandoc
 
 def markdown_to_word(input_md_file, output_word_file):
