@@ -82,3 +82,23 @@ Nos reuniremos durante el curso, desde septiembre hasta junio, una vez cada dos 
 Queremos promover el club a todos los que quieran aprender a programar tanto de secundaria como de bachillerato. Para eso se nos ha ocurrido que podríamos hacer carteles promocionando el club y los colgaremos por el colegio.
 
 ---
+
+# Beneficios para los estudiantes
+Los beneficios van más allá de aprender programación únicamente (que no es poco). Entre ellos están:
+   - Mejorar las habilidades sociales y de liderazgo de todos los integrantes al trabajar en actividades grupales.
+   - Fomentar las interacciones entre cursos (personalmente, no conozco a prácticamente nadie fuera de mi curso).
+   - Construir amistades en función a intereses en común.
+   - Construir proyectos que sean útiles para otros estudiantes.
+   - Rellenar nuestro currículum con proyectos.
+   - Desarrollar la disciplina y dedicación (que será de gran utilidad en el futuro) de los estudiantes.
+   - Incrementar nuestras capacidades lógicas y creativas.
+   - Aumentar nuestras oportunidades académicas.
+
+---
+
+# Evaluación del club
+Al final de cada año escolar, realizaremos un documento en el cuál resumiremos todos los logros y proyectos del año. En ese documento se especificará la contribución de cada integrante para que se puedan llevar el recuerdo (y el orgullo) de haber hecho algo que tenía alguna utilidad. También los miembros podrían hacer algún comentario a cerca de algo que se podría mejorar. Nuestro objetivo a largo plazo con la evaluación es uno: que nuevos estudiantes se animen a aprender a programar y el club se mantenga para cuando no estemos nosotros.
+
+---
+
+# Conclusión
