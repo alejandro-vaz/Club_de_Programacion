@@ -74,4 +74,11 @@ Todos los demás recursos que necesitemos como microplacas Arduino o ESP-32 los 
 ---
 
 # Plan de trabajo
-Nos reuniremos durante el curso, desde septiembre hasta junio, una vez cada dos semanas. Hemos decidido reunirnos solo una vez cada dos semanas ya que es difícil encontrar tiempo libre en común entre los alumnos de bachillerato y los de la E.S.O. En cambio, haremos nuestras reuniones de 2 horas los Lunes para que nos dé tiempo a hacer algo. 
+Nos reuniremos durante el curso, desde septiembre hasta junio, una vez cada dos semanas. Hemos decidido reunirnos solo una vez cada dos semanas ya que es difícil encontrar tiempo libre en común entre los alumnos de bachillerato y los de la E.S.O. En cambio, haremos nuestras reuniones de 2 horas los Lunes para que nos dé tiempo a hacer algo.
+
+---
+
+# Promocionar el club
+Queremos promover el club a todos los que quieran aprender a programar tanto de secundaria como de bachillerato. Para eso se nos ha ocurrido que podríamos hacer carteles promocionando el club y los colgaremos por el colegio.
+
+---
