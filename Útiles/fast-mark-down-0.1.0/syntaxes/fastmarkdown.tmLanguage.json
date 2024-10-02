@@ -1,0 +1,123 @@
+{
+    "scopeName": "source.fmd",
+    "patterns": [
+        {
+            "name": "fmd.bold.fmd",
+            "begin": "'",
+            "patterns": [
+                { "include": "#italic" },
+                { "include": "#strikethrough" },
+                { "include": "#superscript" },
+                { "include": "#subscript" }
+            ],
+            "end": "'"
+        },
+        {
+            "name": "fmd.italic.fmd",
+            "begin": "//",
+            "patterns": [
+                { "include": "#bold" },
+                { "include": "#strikethrough" },
+                { "include": "#superscript" },
+                { "include": "#subscript" }
+            ],
+            "end": "//"
+        },
+        {
+            "name": "fmd.strikethrough.fmd",
+            "begin": "/-",
+            "patterns": [
+                { "include": "#bold" },
+                { "include": "#italic" },
+                { "include": "#superscript" },
+                { "include": "#subscript" }
+            ],
+            "end": "/-"
+        },
+        {
+            "name": "fmd.subscript.fmd",
+            "match": "/s"
+        },
+        {
+            "name": "fmd.superscript.fmd",
+            "match": "/S"
+        },
+        {
+            "name": "fmd.code.fmd",
+            "begin": "/code",
+            "end": "/exit"
+        },
+        {
+            "name": "fmd.math.fmd",
+            "begin": "/math",
+            "patterns": [
+                { "include": "#superscript" },
+                { "include": "#subscript"}
+            ],
+            "end": "/exit"
+        },
+        {
+            "name": "fmd.h1.fmd",
+            "begin": "/h1",
+            "end": "$"
+        },
+        {
+            "name": "fmd.h2.fmd",
+            "begin": "/h2",
+            "end": "$"
+        },
+		{
+			"name": "fmd.img.fmd",
+			"match": "/img"
+		},
+		{
+			"name": "fmd.def.fmd",
+			"match": "/def"
+		},
+		{
+			"name": "fmd.void.fmd",
+			"match": "/void"
+		},
+		{
+			"name": "fmd.done.fmd",
+			"match": "/done"
+		},
+		{
+			"name": "fmd.numbered.fmd",
+			"match": "    /"
+		},
+		{
+			"name": "fmd.pointed.fmd",
+			"match": "    ."
+		},
+        {
+            "name": "fmd.brochet.fmd",
+            "match": "[\\(\\)\\[\\]\\{\\}]"
+        }
+    ],
+    "repository": {
+        "superscript": {
+            "name": "fmd.superscript.fmd",
+            "match": "/S"
+        },
+        "subscript": {
+            "name": "fmd.subscript.fmd",
+            "match": "/s"
+        },
+        "bold": {
+            "name": "fmd.bold.fmd",
+            "begin": "'",
+            "end": "'"
+        },
+        "italic": {
+            "name": "fmd.italic.fmd",
+            "begin": "//",
+            "end": "//"
+        },
+        "strikethrough": {
+            "name": "fmd.strikethrough.fmd",
+            "begin": "/-",
+            "end": "/-"
+        }
+    }
+}
