@@ -36,7 +36,13 @@ instala la extensión manualmente y copia esto en tu settings.json:
                 }
             },
             {
-                "scope": "fmd.code.fmd",
+                "scope": "fmd.python.fmd",
+                "settings": {
+                    "foreground": "#9494ff" // Color para bloques de código
+                }
+            },
+            {
+                "scope": "fmd.ipy.fmd",
                 "settings": {
                     "foreground": "#9494ff" // Color para bloques de código
                 }

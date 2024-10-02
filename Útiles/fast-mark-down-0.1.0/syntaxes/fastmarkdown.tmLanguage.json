@@ -43,9 +43,14 @@
             "match": "/S"
         },
         {
-            "name": "fmd.code.fmd",
-            "begin": "/code",
+            "name": "fmd.python.fmd",
+            "begin": "/python",
             "end": "/exit"
+        },
+        {
+            "name": "fmd.ipy.fmd",
+            "begin": "/ipy",
+            "end": "/ipy"
         },
         {
             "name": "fmd.math.fmd",

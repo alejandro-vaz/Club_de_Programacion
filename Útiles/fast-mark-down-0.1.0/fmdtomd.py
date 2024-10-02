@@ -5,7 +5,7 @@ def fmdtomd(filename):
         return data 
     def replace_point(data):
         data = data.replace("    / ", "1. ") # Punto numerado
-        data = data.replace("    .", "   - ") # Punto sin numerar
+        data = data.replace("    . ", "   - ") # Punto sin numerar
         return data
     def replace_definition(data):
         data = data.replace("/def", ">") # Definición
@@ -16,8 +16,9 @@ def fmdtomd(filename):
         return data
     def replace_code(data):
         data = data.replace("/math", "```math") # Inicio de matemáticas
-        data = data.replace("/code", "```python") # Inicio de código Python
+        data = data.replace("/python", "```python") # Inicio de código Python
         data = data.replace("/exit", "```") # Fin de código
+        data = data.replace("/ipy", "`") # Código en línea
         return data
     def add_images(data):
         count = 1
