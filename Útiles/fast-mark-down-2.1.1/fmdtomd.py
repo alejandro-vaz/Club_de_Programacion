@@ -1,5 +1,8 @@
+import re
+
 def fmdtomd(filename):
     def replace_size(data):
+        data = re.sub(r'#>>>.*?<<<#', '', data)  # Remove content between #>>> and <<<#
         data = data.replace("/h1", "#") # Título
         data = data.replace("/h2", "##") # Sección
         return data 
@@ -15,10 +18,11 @@ def fmdtomd(filename):
         data = data.replace("/done", "- [X]") # Caja de verificación con check
         return data
     def replace_code(data):
-        data = data.replace("/math", "```math") # Inicio de matemáticas
         data = data.replace("/python", "```python") # Inicio de código Python
         data = data.replace("/exit", "```") # Fin de código
         data = data.replace("/ipy", "`") # Código en línea
+        data = data.replace("/_", "$") # Matemáticas en línea
+        data = data.replace("/__", "$$") # Matemáticas en bloque
         return data
     def add_images(data):
         count = 1
@@ -27,7 +31,7 @@ def fmdtomd(filename):
             count += 1
         return data
     def replace_style(data):
-        data = data.replace("./", ".\n\n") # New paragraph
+        data = data.replace("/n", "\n\n") # New paragraph
         data = data.replace("//", "*") # Italic
         data = data.replace("/-", "~~") # Strikethrough
         data = data.replace("/s", "~") # Subscript

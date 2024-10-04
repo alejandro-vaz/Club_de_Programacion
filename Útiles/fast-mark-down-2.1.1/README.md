@@ -1,4 +1,4 @@
-instala la extensión manualmente y copia esto en tu settings.json:
+instala la extensión manualmente y copia esto en tu settings.json para que se muestren los colores:
 
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -48,9 +48,9 @@ instala la extensión manualmente y copia esto en tu settings.json:
                 }
             },
             {
-                "scope": "fmd.math.fmd",
+                "scope": "fmd.comment.fmd",
                 "settings": {
-                    "foreground": "#f2d253" // Color para bloques de matemáticas
+                    "foreground": "#6b6b6b" // Color para comentarios
                 }
             },
             {
@@ -105,6 +105,24 @@ instala la extensión manualmente y copia esto en tu settings.json:
                 "scope": "fmd.brochet.fmd", // Color para brochet
                 "settings": {
                     "foreground": "#ffff00",
+                }
+            },
+            {
+                "scope": "fmd.imath.fmd", // Color para matemáticas en linea
+                "settings": {
+                    "foreground": "#ffffaa",
+                }
+            },
+            {
+                "scope": "fmd.math.fmd", // Color para matemáticas
+                "settings": {
+                    "foreground": "#ffffaa",
+                }
+            },
+            {
+                "scope": "fmd.new.fmd", // Color para nuevo párrafo
+                "settings": {
+                    "foreground": "#6b6b6b" // Color para nuevo párrafo
                 }
             }
         ]
