@@ -5,7 +5,7 @@
     "name": "fastmarkdown",
     "displayName": "FastMarkDown",
     "description": "FastMarkDown is a custom language designed to enhance your coding experience in Markdown, enabling faster and more efficient writing with syntax highlighting and standardized formatting.",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "publisher": "Alejandro_Vaz",
     "contributes": {
         "languages": [{

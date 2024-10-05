@@ -55,12 +55,14 @@
     "folding": {
         "offSide": false,
         "markers": {
-            "start": "/h1",
-            "end": "/h1"
+            "h1": {
+                "start": "/h1",
+                "end": "/h1",
+            },
+            "h2": {
+                "start": "/h2",
+                "end": "/h2"
+            }
         },
-        "nestedMarkers": {
-            "start": "/h2",
-            "end": "/h2"
-        }
     },
 }
