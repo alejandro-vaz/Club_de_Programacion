@@ -31,7 +31,7 @@ def fmdtomd(filename):
             count += 1
         return data
     def replace_style(data):
-        data = data.replace("/n", "\n\n") # New paragraph
+        data = data.replace("/n", "\n") # New paragraph
         data = data.replace("//", "*") # Italic
         data = data.replace("/-", "~~") # Strikethrough
         data = data.replace("/s", "~") # Subscript

@@ -37,5 +37,30 @@
         ["/ipy", "/ipy"],
         ["/_", "/_"],
         ["/__", "/__"]
-    ]
+    ],
+    "colorizedBracketPairs": [
+        [
+            "(",
+            ")"
+        ],
+        [
+            "[",
+            "]"
+        ],
+        [
+            "{",
+            "}"
+        ]
+    ],
+    "folding": {
+        "offSide": false,
+        "markers": {
+            "start": "/h1",
+            "end": "/h1"
+        },
+        "nestedMarkers": {
+            "start": "/h2",
+            "end": "/h2"
+        }
+    },
 }

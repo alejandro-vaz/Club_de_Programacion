@@ -64,11 +64,17 @@
         {
             "name": "fmd.h1.fmd",
             "begin": "/h1",
+            "patterns": [
+                { "include": "#newline" }
+            ],
             "end": "$"
         },
         {
             "name": "fmd.h2.fmd",
             "begin": "/h2",
+            "patterns": [
+                { "include": "#newline" }
+            ],
             "end": "$"
         },
         {
@@ -77,7 +83,18 @@
         },
         {
             "name": "fmd.def.fmd",
-            "match": "/def"
+            "begin": "/def",
+            "patterns": [
+                { "include": "#newline" },
+                { "include": "#subscript" },
+                { "include": "#superscript" },
+                { "include": "#imath" },
+                { "include": "#bold" },
+                { "include": "#italic" },
+                { "include": "#strikethrough" },
+                { "include": "#ipy" }
+            ],
+            "end": "$"
         },
         {
             "name": "fmd.void.fmd",
@@ -119,6 +136,16 @@
         }
     ],
     "repository": {
+        "ipy": {
+            "name": "fmd.ipy.fmd",
+            "begin": "/ipy",
+            "end": "/ipy"
+        },
+        "imath": {
+            "name": "fmd.imath.fmd",
+            "begin": "/_",
+            "end": "/_"
+        },
         "superscript": {
             "name": "fmd.superscript.fmd",
             "match": "/S"
@@ -141,6 +168,10 @@
             "name": "fmd.strikethrough.fmd",
             "begin": "/-",
             "end": "/-"
+        },
+        "newline": {
+            "name": "fmd.new.fmd",
+            "match": "/n"
         }
     }
 }
