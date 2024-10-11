@@ -18,3 +18,6 @@ Dalto nos tiene que patrocinar por todo esto.
 
 5. HTML y CSS:
    - Curso desde cero: https://www.youtube.com/watch?v=ELSm-G201Ls&t=40286s
+
+6. Más cursos:
+   - Link: https://drive.google.com/drive/folders/1VBnjSUkwVD1AT_zfUUfh9Mdig-SEVYp-
