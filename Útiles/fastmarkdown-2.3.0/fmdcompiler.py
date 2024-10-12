@@ -1,8 +1,7 @@
-import re
-
 def fmdtomd(filename):
     def replace_size(data):
-        data = re.sub(r'#>>>.*?<<<#', '', data)  # Remove content between #>>> and <<<#
+        data = data.replace("#>>>", "<!--")
+        data = data.replace("<<<#", "-->")
         data = data.replace("/h1", "#") # Título
         data = data.replace("/h2", "##") # Sección
         return data 
@@ -21,8 +20,8 @@ def fmdtomd(filename):
         data = data.replace("/python", "```python") # Inicio de código Python
         data = data.replace("/exit", "```") # Fin de código
         data = data.replace("/ipy", "`") # Código en línea
-        data = data.replace("/_", "$") # Matemáticas en línea
         data = data.replace("/__", "$$") # Matemáticas en bloque
+        data = data.replace("/_", "$") # Matemáticas en línea
         return data
     def add_images(data):
         count = 1
@@ -51,10 +50,13 @@ def fmdtomd(filename):
     return content
 
 if __name__ == "__main__":
+    filename = input("Name of file without extension: ")
+    fmd_file = f"{filename}.fmd"
+    md_file = f"{filename}.md"
     try:
-        fname = f"{input("Enter the file name: ")}.fmd"
+        with open(md_file, 'w', encoding="utf-8") as file:
+            file.write(fmdtomd(fmd_file))
+        print("Conversion done!")
+        input("")
     except Exception as e:
-        print("Error during conversion:\n", e)
-    output = fmdtomd(fname)
-    with open(fname.replace("fmd", "md"), 'w', encoding="utf-8") as file:
-        file.write(output)
+        print(F"Error during conversion: \n{e}")
