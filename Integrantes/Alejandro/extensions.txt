@@ -2,7 +2,7 @@ Apache Conf
 Apache Conf Snippets
 Black
 Evondev - Indent Rainbow Palettes
-GitHub Codespaces
+FastMarkDown
 Image preview
 Indent-Rainbow
 IntelliCode
@@ -17,3 +17,5 @@ Python Debugger
 Python Indent
 Rainbow CSV
 Refact
+Settings Cycler
+vscode-pdf
