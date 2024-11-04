@@ -71,6 +71,13 @@ Ya tienes instalada la extensión. Para poder usarla, necesitarás copiar este a
                     "fontStyle": "bold"
                 }
             },
+                        {
+                "scope": "fmd.h3.fmd",
+                "settings": {
+                    "foreground": "#ffff00", // Color para encabezados de nivel 2
+                    "fontStyle": "bold"
+                }
+            },
             {
                 "scope": "fmd.img.fmd",
                 "settings": {
@@ -133,4 +140,4 @@ Ya tienes instalada la extensión. Para poder usarla, necesitarás copiar este a
                 }
             }
         ]
-    }
+    },

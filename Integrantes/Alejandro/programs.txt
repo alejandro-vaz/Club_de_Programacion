@@ -1,5 +1,0 @@
-Visual Studio Code
-Pandoc
-Python 3.12
-GitHub Desktop
-Sidekick

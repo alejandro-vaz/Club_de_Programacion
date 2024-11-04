@@ -78,6 +78,14 @@
             "end": "$"
         },
         {
+            "name": "fmd.h3.fmd",
+            "begin": "/h3",
+            "patterns": [
+                { "include": "#newline" }
+            ],
+            "end": "$"
+        },
+        {
             "name": "fmd.img.fmd",
             "match": "/img"
         },

@@ -4,6 +4,7 @@ def fmdtomd(filename):
         data = data.replace("<<<#", "-->")
         data = data.replace("/h1", "#") # Título
         data = data.replace("/h2", "##") # Sección
+        data = data.replace("/h3", "###") # Apartado
         return data 
     def replace_point(data):
         data = data.replace("    / ", "1. ") # Punto numerado
